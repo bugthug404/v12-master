@@ -4,7 +4,7 @@
 
 FROM botpress/server:latest
 
-ENV PORT=8080
+ENV PORT=3000
 ENV BP_HOST=0.0.0.0 
 ENV NODE_ENV=production
 
@@ -23,4 +23,4 @@ ENV PG_SSL=true
 # COPY requirements.txt .
 # RUN pip install -r requirements.txt
 
-CMD [ "npm", "start" ]
+# CMD [ "npm", "start" ]
